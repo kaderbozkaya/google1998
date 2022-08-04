@@ -1,0 +1,40 @@
+
+p{
+    text-align: center;
+}
+article {
+    text-align: center;
+   background-color: #C0C0C0;
+}
+.resim {
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.link-part .links p,
+.search-part p {
+  margin: 0;
+  padding: 0;
+}
+.link-part {
+    width: 100%;
+    display: flex;
+    background-color: #7ee5da;
+  }
+  .link-part .links {
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .link-part .links:nth-child(1) {
+    width: 40%;
+  }
+  .link-part .links:nth-child(2) {
+    width: 30%;
+  }
+  .link-part .links:nth-child(3) {
+    width: 40%;
+  }
