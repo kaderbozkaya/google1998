@@ -12,8 +12,7 @@ article {
     margin-left: auto;
     margin-right: auto;
 }
-.link-part .links p,
-.search-part p {
+.link-part .links p {
   margin: 0;
   padding: 0;
 }
